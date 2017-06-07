@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cloud Note Application</string>
+    <string name="date_label">Date</string>
+    <string name="content_label">Content</string>
+    <string name="save_note_button">Save</string>
+    <string name="delete_note_button">Delete Note</string>
+    <string name="msg_notes_received">New notes received!</string>
+    <string name="msg_notes_received_error">Could not fetch notes</string>
+    <string name="msg_note_created">Note created successfully!</string>
+    <string name="msg_note_error">Note could not be created</string>
+    <string name="msg_note_deleted">Note deleted!</string>
+    <string name="msg_note_deleted_error">Note could not be deleted</string>
+    <string name="msg_note_not_found">Note not found!</string>
+</resources>

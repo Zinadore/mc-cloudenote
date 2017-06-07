@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="iboutsikas.practical.org.cloudenoteapplication.activities.MainActivity">
+
+    <ListView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/lv_notes">
+
+    </ListView>
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_new_note"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_note_add_black_24dp"
+            android:layout_margin="5sp"
+            android:layout_width="56sp"
+            android:layout_height="56sp">
+
+    </android.support.design.widget.FloatingActionButton>
+</RelativeLayout>
